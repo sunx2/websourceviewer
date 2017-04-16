@@ -1,0 +1,25 @@
+
+{%extends 'base.html'%}
+{%block title%}
+
+Audios for {{namee}} | Download all
+{%endblock title%}
+{%block contents%}
+<div class="error">{{notfound}}</div>
+<ol type='1'>
+{%for item in audw%}
+<li><div class="viditem"> 
+
+<audio controls>
+  <source src="{{item}}" type="audio/ogg">
+  <source src="{{item}}" type="audio/mpeg">
+<div class="error">Your browser does not support the Audio Player.</div>
+</audio>
+<a href="{{item}}" download="audiofile.mp3">Download</a>
+</li>
+
+{%endfor%}
+</ol>
+
+{%endblock%}
+

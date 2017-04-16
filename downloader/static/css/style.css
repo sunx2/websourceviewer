@@ -1,0 +1,28 @@
+.header{/* full header*/float:left;width:99%;height:25%;margin:4px;color:white;background:-webkit-linear-gradient(black,#0C063D);border-radius:5px;box-shadow:5px 5px 3px 3px #29244C;display:inline;}
+
+.firstform{color:white;font-weight:bolder;font-size:medium;float:right;display:inline;}
+
+.spheader{font-size:90px;font-weight:bolder;text-shadow: 5px 3px #5E559A;}
+.inputbox{width:250px;height:30px;color:darkblue;border-radius:3px;display:inline;font-size:small;}
+.inputbox:hover{width:450px;height:70px;font-size:medium;background-clip:padding-box;position:relative;}
+
+.submitbutton{background-color:#171944;color:white;width:50px;height:29px;} .submitbutton:hover{width:100px;height:58px;font-size:medium;}
+
+.buttonbox{width:100%;height:12%;border-radius:5px;background-color:#285C88;display:inline;}
+.button{width:100px;height:50px;background:-webkit-linear-gradient(#254968,#236094);font-weight:bold;color:white;display:inline;padding:10px;margin-top:10px;}
+.button:hover{width:200px;height:100px;font-size:medium;cursor:pointer;}
+.contents{
+ background:-webkit-linear-gradient(#B1C7DA,white);
+ width:100%;
+ height:600px;
+ overflow:scroll;
+}
+.error{
+ background-color:red;color:white;font-size:medium;}
+.que{background-color:#184C77;color:white;margin-top:5px;margin-bottom:5px;font-size:medium;margin-left:5px;}
+
+.imgitems{width:400px;height:400px;padding:5px;border:2px black;display:inline;background-color:blue;color:white;}
+.cssitems{font-weight:bold;color:white;height:100px;background-color:#A7E5E5; margin-top:5px;border:2px black;font-size:large;}
+.footer{background:-webkit-linear-gradient(#1F26AA,#434799);width:100%;height:50px; text-align:centre;display:inline;}
+
+.p{font-size:large;color:blue;font-weight:bold;}

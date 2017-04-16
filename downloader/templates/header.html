@@ -1,0 +1,9 @@
+<div class="spheader">&nbsp;Download all</div>
+
+<div class ="firstform"><form action='/downloader/list/' method='post'>
+{% csrf_token %}
+ <b>Enter Url :</b> <input type="text" class="inputbox" maxlength="50" name="url" value="http://" />
+<input type="submit" class="submitbutton" value="Start" onclick="onSubmitClick()" name="start"/> 
+
+</form>
+</div>

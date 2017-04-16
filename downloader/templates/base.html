@@ -1,0 +1,25 @@
+{%load staticfiles%}
+<html>
+<head>
+<title>{%block title%}{%endblock%}</title> <!-- load title from server --> 
+<link rel="stylesheet" href="{%static 'css/style.css'%}"></link>
+<meta charset="UTF-*">
+<meta http-equiv="refresh" content="180">
+<meta name="keywords" content="website","source"></meta> <!-- load metacontents from server --> 
+<meta name="description" content="Scrape a website to get it all contents"></meta>  <!-- load metadescriptions from server --> 
+<meta name="author" content "SunSoft Pvt."></meta>
+</head>
+<body bgcolor="#70A7D5">
+<div class="header">{%include 'header.html'%}</div>
+{%include 'buttons.html'%}
+<hr color="#70a7d5" height="10px"></hr>
+<div class="error">{%block error%}{%endblock error%}</div>
+<div class="que">{%block url%}{%endblock url%}</div>
+<div class="contents">{%block contents%}
+{%endblock contents%}</div>
+{%block help%}
+{%endblock help%}
+{%include 'footer.html'%}
+<script type="text/javascript" src="{%static 'js/script.js'%}"></script>
+</body>
+</html>

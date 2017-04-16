@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block title%}
+
+Images for {{namee}} | website source viewer
+{%endblock title%}
+{%block contents%}
+<div class="error">{{notfound}}</div>
+<ol type='1'>
+{%for item in imgw%}
+<div class="imgitems"><img src='{{item}}'></img></div>
+
+<a href='{{item}}' download='imagefile'><div class="imgitems">Download</div></a>
+{%endfor%}
+</ol>
+
+{%endblock%}
+

@@ -1,0 +1,22 @@
+
+
+{%extends 'base.html'%}
+{%block title%}
+
+CSS scripts of {{namee}} | Download all
+{%endblock title%}
+{%block contents%}
+<div class="error">{{notfound}}</div>
+<ol type='1'>
+{%for item in cssw%}
+<div class="cssitems">
+<li>{{item}}&nbsp;<br></br><a href='{{item}}' download='{{item}}'><div class="button">Download</div></a><a href='{{item}}' target='_blank'>&nbsp;<div class="button">Preview</div></a></li>
+</div>
+{%endfor%}
+</ol>
+<hr></hr>
+
+
+
+{%endblock%}
+
